@@ -8,7 +8,7 @@ body {
 }
 
 #header {
-    margin-top: auto; /* Опускає контент вниз */
+    margin-top: auto;
     text-align: center;
 }
 
@@ -22,7 +22,7 @@ body {
     flex: 1;
     padding: 10px;
     border: 3px solid #000000;
-    margin: 50px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -43,9 +43,9 @@ footer {
 }
 
 a {
-    color: #000000; /* Задайте бажаний колір, наприклад, червоний */
+    color: #000000;
 }
 
 a:hover {
-    color: #8e8021; /* Колір при наведенні миші */
+    color: #8e8021;
 }

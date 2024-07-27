@@ -26,7 +26,9 @@ let words = [
     'apply',
     'bind',
     'map',
-    'split'
+    'split',
+    'function',
+    'includes'
 ];
 
 let word = words[Math.floor(Math.random() * words.length)];
@@ -38,11 +40,6 @@ for (let i = 0; i < word.length; i++) {
 let remainingLetters = word.length;
 
 while (remainingLetters > 0) {
-        // Основний код
-        // Показуємо стан гри
-        // Запрошуємо варіанти відповіді
-        // Оновлюємо answerArray та remainingLetters для кожного
-        // Входження вірної відповіді
     alert(answerArray.join(' '));
 
     let guess = prompt('Guess the letter or press cancel to exit the game.');
@@ -51,7 +48,6 @@ while (remainingLetters > 0) {
     } else if (guess.length !== 1) {
         alert('Please enter only one letter.');
     } else {
-        // Оновлюємо стан гри
         for (let j = 0; j < word.length; j++) {
             if (word[j] === guess) {
             answerArray[j] = guess;

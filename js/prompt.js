@@ -1,5 +1,6 @@
 let name = prompt('What is your name?');
-console.log('Hello, ' + name);
+  console.log('Hello, ' + name + '!');
+let sayHelloTo = confirm('Hello, ' + name + '!');
 
 let likesProgramming = confirm('Do you like programming?');
 if (likesProgramming) {
@@ -58,3 +59,4 @@ while (remainingLetters > 0) {
 }
 alert(answerArray.join(' '));
 alert('Great job! The word was spelled ' + word + '.');
+console.log('Great job! The word was spelled ' + word + '.');
